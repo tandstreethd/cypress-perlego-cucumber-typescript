@@ -1,5 +1,11 @@
 ## Description
-Cypress tests written using cucumber and typescript. These tests are ran against the Ted.com website
+Cypress tests written using cucumber and typescript. These tests are ran against the perlego.com website. The Test cases are as follow:
+
+1. Navigate to our Search page. Notice different filters on the Search page. Validate that basic filter combinations return at least 5 pages of results. Try to keep filter selection and input as random as possible.
+
+2. Sign up. Store new credentials. Then log in and create a workspace. Payment can be bypassed by clicking on the Perlego logo.
+
+3. Password reset
 
 ## Setup
 Install Node.js (version LTS recommended) from https://nodejs.org
